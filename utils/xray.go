@@ -26,6 +26,7 @@ func ChangeConfigFile() error {
     }
     var idx int
 
+    fmt.Println("Local configs:")
     for i, entry := range config_files {
         if !entry.IsDir() {
             fmt.Println(" ", i, entry.Name())
