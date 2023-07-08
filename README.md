@@ -17,10 +17,10 @@ go build .
 ```
 
 ## Arguments
-`-dir`: Your Config files directory (default `~/.local/xconfs`)
-`-xconf`: Path to Xray's Config file (default `/etc/xray/config.json`)
-`-myip`: Print you public IP address to `stdout`
-`-tun2socks`: install `tun2socks` executable to `~/.local/bin` (amd64)
+- `-dir`: Your Config files directory (default `~/.local/xconfs`)
+- `-xconf`: Path to Xray's Config file (default `/etc/xray/config.json`)
+- `-myip`: Print you public IP address to `stdout`
+- `-tun2socks`: install `tun2socks` executable to `~/.local/bin` (amd64)
 
 The default behavior is changing config file. `-myip` and `-tun2socks` are single flags so use one of them at the time.
 `-dir` and `-xconf` flags are used to tell the app where local config files are located and where is Xray's main config file. So they are NOT operational flags and you can use them at the same time to specify the correct directory for local configs and correct path for xray config file.
