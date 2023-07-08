@@ -36,3 +36,9 @@ xchange -tun2socks #install/update tun2socks (amd64)
 xchange -dir ~/xray-configs -xconf /etc/xray/config.json
 ```
 
+
+## Roadmap
+
+- [ ] Add VPN-Mode with tun2socks
+- [ ] Resolve domain names in Local Configs to IP addresses
+
